@@ -21,7 +21,7 @@ window.onload = function () {
 
 	//ツイートボタン
 	const tweetImgUrl = "tweet.png";						//game.htmlからの相対パス
-	game.preload([tweetImgUrl]);					//データを読み込んでおく		
+	game.preload([tweetImgUrl]);					//データを読み込んでおく	
 
 	//読み込み終わり
 	/////////////////////////////////////////////////
@@ -42,7 +42,7 @@ window.onload = function () {
 
 		const mainScene = new Scene();					//シーン作成
 		game.pushScene(mainScene);  					//mainSceneシーンオブジェクトを画面に設置
-		mainScene.backgroundColor = "black"; 			//mainSceneシーンの背景は黒くした
+		mainScene.backgroundColor = "white"; 			//mainSceneシーンの背景は黒くした
 
 		//ポイント表示テキスト
 		const scoreText = new Label(); 					//テキストはLabelクラス
@@ -134,7 +134,7 @@ window.onload = function () {
 		////////////////////////////////////////////////////////////////
 		//結果画面
 		const endScene = new Scene();
-		endScene.backgroundColor = "blue";
+		endScene.backgroundColor = "grey";
 
 		//GAMEOVER
 		const gameOverText = new Label(); 					//テキストはLabelクラス
